@@ -1,0 +1,77 @@
+.board,tr ,td {
+    border: 0.5px solid ;
+    border-color: #c3c3c3; 
+    text-align: center;
+    margin: 0;
+    border-collapse: collapse;
+}
+table {
+    border-collapse: separate;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    border-spacing: 0px!important;
+    font-variant: normal;   }
+.gameBoard
+{
+   width:80%;
+}
+.playerZone, .enemyZone{
+margin: 25px;
+width:600px;
+height: 400px;
+float: left;
+
+}
+/* table
+{
+    width:300px;
+    height: 300px;
+    float: left;
+} */
+#ui{clear: both;margin: 25px;}
+#ui > *{
+    margin:10px;
+    margin-left: 0;
+}
+.Carrier0{background-color: black;}
+.Carrier1{background-color: black;}
+.Carrier2{background-color: black;}
+.Carrier3{background-color: black;}
+.Carrier4{background-color: black;}
+
+.Battleship0{background-color: orange;}
+.Battleship1{background-color: orange;}
+.Battleship2{background-color: orange;}
+.Battleship3{background-color: orange;}
+
+.Cruiser0{background-color: blue;}
+.Cruiser1{background-color: blue;}
+.Cruiser2{background-color: blue;}
+
+.Submarine0{background-color: cyan;}
+.Submarine1{background-color: cyan;}
+.Submarine2{background-color: cyan;}
+
+.Destroyer0{background-color: green;}
+.Destroyer1{background-color: green;}
+.enemyZone, .playerZone{background-image: url('../media/WATER.gif');background-repeat: no-repeat;background-size: cover;} 
+.cell:hover{
+    background-color: rgba(48, 255, 64,0.5);
+    
+}
+.filled{
+    background-color: green;
+}
+.hit
+{
+    background-color: red;
+}
+.miss
+{
+    background-color: gray;
+}
